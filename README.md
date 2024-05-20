@@ -47,27 +47,28 @@ cd nostr
 
 ## Quick Start (using Shell)
 
-You need to have Docker installed and update in your system for this project 
-
 cd into the directory for the nostr project 
 
 Make sure your Bash has executable permissions. If it doesn't, you can grant execute permissions using the chmod command:
 
 ```shell
-chmod +x run_relays.sh
+chmod +x run_relays_client.sh
 ```
 
-Run the bash script 
+Run the bash script to run the 3 relays and the client
 
 ```shell
-./run_relays.sh
+./run_relays_client.sh
 ```
-Now all 3 relays are running, you can check the status of the relays using ```docker ps ``` command. 
+Now all 3 relays and the client are running, you can check the status of the relays using ```docker ps ``` command. 
 
-Stop all relays using command 
+you can access the relays in your browser at http://localhost:7001/, http://localhost:7002/
+and http://localhost:7003/
+
+Stop all relays and the client using command 
 
 ```shell
-./stop_relays.sh
+./stop_relays_slient.sh
 ```
 
 
@@ -82,9 +83,6 @@ The command below will create docker images and start all the relays (containers
 ```shell
 docker-compose up -d
 ```
-
-All the relays should be up and running now, you can access the relays in your browser at http://localhost:7001/, http://localhost:7002/
-and http://localhost:7003/
 
 following command will stop all the realays 
 
