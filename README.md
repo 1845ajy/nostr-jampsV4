@@ -5,14 +5,14 @@ This is the Nsotr relay network project V4 with 3 relays and a simple client int
 
 ## Before you start
 
-This project invoves understanding of the nostr protocol, docker and bash
+This project invoves understanding of the nostr protocol, docker, websockets, port binding in docker and bash
 
 Things you need to have installed in the machine 
 
 - Docker 
 - Bash
 - WSL
-- nodejs(for the client)
+- nodejs (for the client)
 - npm
 
 ## [NIPs](https://github.com/nostr-protocol/nips) that are supported by this relay network
