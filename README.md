@@ -175,10 +175,11 @@ This client is an adaptation of - [forumstr](https://github.com/zantoshi/forumst
 
 The client is super simple and currenly you can only hardcode the relay. you can find the relay in forumstr\utils\nostr.js 
 
-you can change the relay in the follwing line of code to your desired relay 
+you can change the relay in the follwing line of code to your desired relay. Just replace the ws://localhost:7002 with the desired relay
 
 ```javascript
 const relay = relayInit("ws://localhost:7002/");
+```
 
 ## Lisence 
 
