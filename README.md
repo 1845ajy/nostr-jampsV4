@@ -5,7 +5,7 @@ This is the Nsotr relay network project V4 with 3 relays and a simple client int
 
 ## Before you start
 
-This project invoves understanding of the nostr protocol, docker, websockets, port binding in docker and bash
+This project requires the understanding of the nostr protocol, docker, websockets, port binding in docker and bash
 
 Things you need to have installed in the machine 
 
