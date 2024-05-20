@@ -178,6 +178,11 @@ To access the client you have to navigate to http://localhost:3000/ in your web 
 
 This client is an adaptation of - [forumstr](https://github.com/zantoshi/forumstr)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social)
 
+
+You can input data into the client (while the relay is running) and the input data will show up in the home page as follows 
+
+![IMAGE1](images/Capture1.JPG)
+
 The client is super simple and currenly you can only hardcode the relay. you can find the relay in forumstr\utils\nostr.js 
 
 you can change the relay in the follwing line of code to your desired relay. Just replace the ws://localhost:7002 with the desired relay
