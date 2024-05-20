@@ -11,14 +11,9 @@ cd pyrelay-master
 # Run docker-compose down with volume removal in py relay
 docker-compose down -v
 
-#cd to the client 
-
-cd ..
-cd forumstr
-npx kill-port 3000
-
-
 # If you have added more relays with their own docker compose file it is advisable to shut them down here
 
 # Exit with status code 0
 exit 0
+
+

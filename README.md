@@ -9,11 +9,11 @@ This project invoves understanding of the nostr protocol, docker and bash
 
 Things you need to have installed in the machine 
 
-Docker 
-Bash
-WSL
-nodejs(for the client)
-npm
+- Docker 
+- Bash
+- WSL
+- nodejs(for the client)
+- npm
 
 ## [NIPs](https://github.com/nostr-protocol/nips) that are supported by this relay network
 

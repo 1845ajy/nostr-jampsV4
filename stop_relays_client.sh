@@ -20,8 +20,6 @@ cd ..
 cd forumstr
 npx kill-port 3000
 
-pause
-
 # Exit with status code 0
 
 
