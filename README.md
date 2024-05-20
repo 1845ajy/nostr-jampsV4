@@ -171,6 +171,9 @@ services:
 ```
 ## Using the Client 
 
+![R2 Bucket Subdomain](images/capture.jpg)
+
+
 This client is an adaptation of - [forumstr](https://github.com/zantoshi/forumstr)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social)
 
 The client is super simple and currenly you can only hardcode the relay. you can find the relay in forumstr\utils\nostr.js 
