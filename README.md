@@ -71,6 +71,8 @@ Stop all relays and the client using command
 ./stop_relays_slient.sh
 ```
 
+Likewise you can use the provided shell scripts to start the client only, stop just the relays etc.. to test the project
+
 
 ## Quick Start (using docker)
 
