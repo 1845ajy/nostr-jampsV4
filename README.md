@@ -171,6 +171,8 @@ services:
 ```
 ## Using the Client 
 
+To access the client you have to navigate to http://localhost:3000/ in your web browser. Make sure your port 3000 is open in your system otherwise the client will move onto anoter port. you can have a look if this is the case in the bash console
+
 ![IMAGE1](images/Capture.JPG)
 
 
