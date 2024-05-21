@@ -233,10 +233,10 @@ Supply chain data needs to be stored in the distributed ledger format. We reccom
 
 ```json
 {
-  "order_number": "100100",
+  "order_number": "1998076",
   "items": [
     {
-      "item_number": "0100",
+      "item_number": "8987",
       "description": "Powdered Milk",
       "unit_price": 5,
       "quantity": 5000,
@@ -244,7 +244,7 @@ Supply chain data needs to be stored in the distributed ledger format. We reccom
       "expiry_date": "2024-12-01"
     },
     {
-      "item_number": "0101",
+      "item_number": "0987",
       "description": "Condensed Milk",
       "unit_price": 10,
       "quantity": 5000,
@@ -288,4 +288,6 @@ Supply chain data needs to be stored in the distributed ledger format. We reccom
   }
 }
 ```
+This way each order number would have its own unique identifying number which can be used to form relations with unique customers, items etc. 
+
 
