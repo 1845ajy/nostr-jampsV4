@@ -228,3 +228,119 @@ implemented on the relays. https://github.com/hoytech/strfry is a relay that use
 
 "# nostr-jamps-v3" 
 "# nostr-jampsV4" 
+
+Supply chain data needs to be stored in the distributed ledger format. We reccomend the following data structure for future development of the project
+
+```json
+{
+  "order_number": "100100",
+  "items": [
+    {
+      "item_number": "0100",
+      "description": "Powdered Milk",
+      "unit_price": 5,
+      "quantity": 5000,
+      "total": 25000,
+      "expiry_date": "2024-12-01"
+    },
+    {
+      "item_number": "0101",
+      "description": "Condensed Milk",
+      "unit_price": 10,
+      "quantity": 5000,
+      "total": 50000,
+      "expiry_date": "2024-12-01"
+    }
+  ],
+  "supplier": {
+    "name": "Brown Dairy Farm QLD",
+    "address": "123 Welshpool Rd Wattle Grove QLD",
+    "contact_name": "Alan Brown",
+    "contact_phone": "0412345678",
+    "email": "Alan@brown.com"
+  },
+  "buyer": {
+    "name": "Star Trade Centre Indonesia",
+    "address": "321 Mood St Java",
+    "contact_name": "Bob Ugyen",
+    "contact_phone": "0456789123",
+    "email": "Star@tradecentre.com"
+  },
+  "logistics": {
+    "provider": "JetBlue Transport",
+    "address": "1 Transport Drive Gympie QLD",
+    "contact_name": "Charlie Gips",
+    "contact_phone": "0411112222",
+    "email": "Charlie@gips.com",
+    "delivery_address": {
+      "address": "Sea Power Warehouse Indonesia",
+      "contact_name": "David Nge",
+      "contact_phone": "66771000000",
+      "email": "David@nge.com"
+    }
+  },
+  "dates": {
+    "order_booking": "2024-01-01",
+    "dispatcher_date": "2024-02-01",
+    "contracted_arrival": "2024-03-01",
+    "goods_check_in": "2024-02-02T06",
+    "goods_check_out": "2024-02-05T06"
+  }
+}
+
+{
+  "order_number": "100100",
+  "items": [
+    {
+      "item_number": "0100",
+      "description": "Powdered Milk",
+      "unit_price": 5,
+      "quantity": 5000,
+      "total": 25000,
+      "expiry_date": "2024-12-01"
+    },
+    {
+      "item_number": "0101",
+      "description": "Condensed Milk",
+      "unit_price": 10,
+      "quantity": 5000,
+      "total": 50000,
+      "expiry_date": "2024-12-01"
+    }
+  ],
+  "supplier": {
+    "name": "Brown Dairy Farm QLD",
+    "address": "123 Welshpool Rd Wattle Grove QLD",
+    "contact_name": "Alan Brown",
+    "contact_phone": "0412345678",
+    "email": "Alan@brown.com"
+  },
+  "buyer": {
+    "name": "Star Trade Centre Indonesia",
+    "address": "321 Mood St Java",
+    "contact_name": "Bob Ugyen",
+    "contact_phone": "0456789123",
+    "email": "Star@tradecentre.com"
+  },
+  "logistics": {
+    "provider": "JetBlue Transport",
+    "address": "1 Transport Drive Gympie QLD",
+    "contact_name": "Charlie Gips",
+    "contact_phone": "0411112222",
+    "email": "Charlie@gips.com",
+    "delivery_address": {
+      "address": "Sea Power Warehouse Indonesia",
+      "contact_name": "David Nge",
+      "contact_phone": "66771000000",
+      "email": "David@nge.com"
+    }
+  },
+  "dates": {
+    "order_booking": "2024-01-01T06:00:00",
+    "dispatcher_date": "2024-02-01T06:00:00",
+    "contracted_arrival": "2024-03-01T06:00:00",
+    "goods_check_in": "2024-02-02T06:00:00",
+    "goods_check_out": "2024-02-05T06:00:00"
+  }
+}
+
